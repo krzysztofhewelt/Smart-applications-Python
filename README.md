@@ -6,7 +6,7 @@ Enjoy :muscle:
 # Getting started
 1. Clone this repo
 ```
-git clone ???
+git clone https://github.com/krzysztofhewelt/Smart-applications-Python
 ```
 2. Build docker image from Dockerfile
 ```
