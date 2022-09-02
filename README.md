@@ -23,7 +23,7 @@ docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter
 ```
 4. Open Jupyter in web browser on address
 ```
-http://127.0.0.1:8888/lab?token=<GENRATED TOKEN>
+http://127.0.0.1:8888/lab?token=<GENERATED TOKEN>
 ```
 
 # Technologies
