@@ -12,12 +12,12 @@ git clone https://github.com/krzysztofhewelt/Smart-applications-Python
 ```
 docker build -t jupyter .
 ```
-3. Run docker command to run Jupyter environment in container\
+3. Run docker command to run Jupyter environment in container.
 **Windows users**
 ```
 docker run -it --rm -p 8888:8888 -v "%cd%":/home/jovyan/work jupyter
 ```
-\**Linux users**
+**Linux users**
 ```
 docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter
 ```
