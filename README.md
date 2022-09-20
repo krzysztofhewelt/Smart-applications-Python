@@ -16,7 +16,7 @@ docker build -t jupyter .
 **Windows users**
 ```
 docker run -it --rm -p 8888:8888 -v "%cd%":/home/jovyan/work jupyter
-```
+```\
 **Linux users**
 ```
 docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter
