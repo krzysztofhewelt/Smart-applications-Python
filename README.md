@@ -26,7 +26,7 @@ docker run -it --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter
 http://127.0.0.1:8888/lab?token=<GENERATED TOKEN>
 ```
 
-# Technologies
+# Technologies and tools
 - Python
 - Apache Spark and MLlib
 - Jupyter
